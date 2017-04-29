@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PSOGUI">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="224" height="392"/>
+    </constraints>
+    <properties>
+      <background color="-3080218"/>
+      <font name="Andale Mono"/>
+      <foreground color="-4136980"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e062" class="javax.swing.JLabel" binding="particleNum">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Swarm Num:"/>
+        </properties>
+      </component>
+      <component id="8fe2c" class="javax.swing.JLabel" binding="generation">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Iteration Time:"/>
+        </properties>
+      </component>
+      <component id="c14a5" class="javax.swing.JLabel" binding="weightFactor">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Weight Factor - w:"/>
+        </properties>
+      </component>
+      <component id="b4204" class="javax.swing.JTextField" binding="wValue">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="25"/>
+            <preferred-size width="150" height="-1"/>
+            <maximum-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="0.5"/>
+        </properties>
+      </component>
+      <component id="2ce61" class="javax.swing.JTextField" binding="generationText">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="25"/>
+            <preferred-size width="150" height="-1"/>
+            <maximum-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="100"/>
+        </properties>
+      </component>
+      <component id="d88e0" class="javax.swing.JTextField" binding="particleNumText">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="25"/>
+            <preferred-size width="150" height="-1"/>
+            <maximum-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="50"/>
+        </properties>
+      </component>
+      <component id="3b83" class="javax.swing.JLabel" binding="bestLengthLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Shortest Path:"/>
+        </properties>
+      </component>
+      <component id="9ba61" class="javax.swing.JButton" binding="start">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="START"/>
+        </properties>
+      </component>
+      <component id="44e09" class="javax.swing.JLabel" binding="beta">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Start Point:"/>
+        </properties>
+      </component>
+      <component id="593fe" class="javax.swing.JTextField" binding="startPoint">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="25"/>
+            <preferred-size width="150" height="-1"/>
+            <maximum-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="1"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
